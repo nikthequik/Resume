@@ -9,13 +9,13 @@ html {
 }
 
 div {
-	border-radius: 5px;
+	border-radius: 3px;
 }
 
 #resume {
 	
 	display: table;
-	border: 3px solid black;
+	/*border: 3px solid black;*/
 	border-radius: 5px;
 	background-color: black;
 	z-index: -1;
@@ -30,7 +30,7 @@ div {
 	z-index: 1;
 	position: relative;
 	width: 2000px;
-	background-color: #0098ee;
+	background-color: #0C6434;
 	
 	
 }
@@ -42,23 +42,11 @@ div {
 
 }
 
-#header-fill {
-
-	/*display: table-cell;*/
-	float:left;
-	z-index: -1;
-	position: relative;
-	
-	
-	
-	background-color: #000000;
-}
-
 #name {
 	
 	margin-left: 5px;
 	padding-top: 5px;
-	font-size: 1.8em;
+	font-size: 1.9em;
 	font-weight:bold;
 	color: #ffffff;
 	line-height: 15px;
@@ -86,6 +74,9 @@ h4 {
 }
 
 .job_title {
+
+	position: relative;
+	top: 5px;
     font-size: 1.15em;
     font-weight:bold;
     line-height: 16px;
@@ -109,15 +100,18 @@ li {
 	margin:5px;
 }
 
+#content {
+	border-spacing:3px;
+}
 
 .left {
 
 	display: table-cell;
 	overflow: hidden;
 	position: relative;
-	margin: 5px;
+	min-width: 8em;
 	width: 1000px;
-	background-color: #ffcc00;
+	background: linear-gradient(to right, #0C6434, #EAE7CF);
 	
 }
 
@@ -128,7 +122,8 @@ li {
     position: relative;
     margin: 5px;
 	width: 90%;
-	background-color: #EAF2B1;
+	min-width: 20em;
+	background-color: #EAE7CF;
 	
 }
 
@@ -137,6 +132,7 @@ li {
 	margin-left: 20px;
 	margin-right: 5px;
 	margin-top: -10px;
+	max-width: 1000px;
 	font-family: Garamond, serif;
 	color: #000000;
 }
@@ -147,7 +143,7 @@ li {
 	position: relative;
 	width: 2000px;
 	height: 53px;
-	background-color: #009900;
+	background-color: #0C6434;
 	font-size: 1.1em;
 	text-align: center;
 	color: #ffffff;
