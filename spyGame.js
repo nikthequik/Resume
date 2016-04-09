@@ -22,7 +22,7 @@ var user = prompt(playGame).toLowerCase();
             var reconsider = prompt("I understand your hesitation.  I would only counter that we wouldn't have asked you for your help unless it was completely necessary.  The future of our species may be at stake.  I'm afraid I can't go into more detail unless you agree to accept the mission. Are you sure you won't help?");
             var confirm = prompt("Final answer. Yes or no.");
             
-            if (reconsider == 'no' && confirm == 'yes' ) {
+            if (reconsider.toLowerCase() == 'no' && confirm.toLowerCase() == 'yes' ) {
                 alert("Great!  You'll fit in perfect around here."); }
             else {
                 alert("We're sorry to see you go. Goodbye.");
