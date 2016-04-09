@@ -57,11 +57,12 @@ div {
 	text-decoration:none;
 	font-weight:normal;
 	font-size: .6em;
-	color: #000000;
+	color: #fff;
 }
 
 #email:hover {
     color:#ffffff;
+    font-weight: bold;
 }
 
 h4 {
@@ -142,16 +143,29 @@ li {
 	display:table-cell;
 	position: relative;
 	width: 2000px;
-	height: 53px;
 	background-color: #0C6434;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	text-align: center;
 	color: #ffffff;
 }
 
 #footer p {
 	position: relative;
-	padding-top: 15px;
-	padding-bottom: 10px;
+	
+
+	
+}
+#game-button {
+
+	border-radius: 5px;
+	font-size: 1.2em;
+	background-color: black;
+	color: white;
+	margin-top: 20px;
+}
+
+#game-button:hover {
+	background-color: white;
+	color: black;
 }
 
