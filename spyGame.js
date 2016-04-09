@@ -46,4 +46,3 @@ var user = prompt(playGame).toLowerCase();
     }
 }
 
-/*document.getElementById("game-button").onclick = spyGame("You have been chosen to carry out a top secret mission because your record is absolutely immaculate.  \n Honestly we would be lucky to have you aboard. If you have any doubts or reservations, now is the time to back out.  Will you accept the mission?");*/
