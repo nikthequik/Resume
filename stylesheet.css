@@ -150,10 +150,11 @@ li {
 }
 
 #footer p {
-	position: relative;
-	
+	position: relative;	
+}
 
-	
+nav {
+	display: inline-block;
 }
 #game-button {
 
